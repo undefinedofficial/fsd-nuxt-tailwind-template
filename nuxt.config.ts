@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   dir: {
     public: "../public",
     app: "01-app",
-    layouts: "02-processes",
+    layouts: "01-app/layouts",
     pages: "03-pages",
     assets: "07-shared/assets",
   },

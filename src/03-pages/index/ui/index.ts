@@ -1,3 +1,1 @@
-import Page from "./IndexPage.vue";
-
-export { Page };
+export { default as Page } from "./IndexPage.vue";

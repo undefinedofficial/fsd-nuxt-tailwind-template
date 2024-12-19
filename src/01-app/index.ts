@@ -1,3 +1,3 @@
-import App from "./App.vue";
+export { default } from "./App.vue";
 
-export default App;
+export { RouteNamesEnum } from "./router.options";

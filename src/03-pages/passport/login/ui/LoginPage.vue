@@ -6,5 +6,4 @@
 
 <script lang="ts" setup>
 useHead({ title: "Login" });
-definePageMeta({ layout: "passport" });
 </script>

@@ -1,3 +1,1 @@
-import Page from "./LoginPage.vue";
-
-export { Page };
+export { default as Page } from "./LoginPage.vue";
