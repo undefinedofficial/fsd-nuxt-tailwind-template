@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "sibiraj-s.vscode-scss-formatter",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "intellsmi.comment-translate",
+    "vue.volar",
+    "mrmlnc.vscode-scss",
+    "ms-vscode.vscode-typescript-next",
+    "liamhammett.inline-parameters",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "usernamehw.errorlens",
+    "sbokyzahodi.fsd-slices"
+  ]
+}

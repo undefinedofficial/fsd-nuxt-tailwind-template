@@ -1,0 +1,115 @@
+{
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.hover.sticky": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // Eslint
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  "eslint.enable": true,
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "format/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  "i18n-ally.localesPaths": "src/01-app/locales",
+  // "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
+  "i18n-ally.pathMatcher": "{locale}/index.json",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "ru",
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.displayLanguage": "ru",
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.enabledParsers": ["json", "ts"],
+  "i18n-ally.ignoredLocales": ["de", "fr", "es"],
+  "i18n-ally.frameworks.ruby-rails.scopeRoot": "",
+  "svg.preview.background": "dark-transparent",
+  "material-icon-theme.folders.associations": {
+    "01-app": "home",
+    "02-processes": "Context",
+    "03-pages": "Content",
+    "04-widgets": "app",
+    "05-features": "Constant",
+    "06-entities": "Dist",
+    "07-shared": "container",
+    "ui": "components",
+    "default": "views",
+    "index": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "router.options.ts": "routing"
+  },
+  "editor.hover.delay": 1000,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts",
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig",
+    "*.d.ts": "tsconfig.*.json, env.d.ts"
+  }
+}

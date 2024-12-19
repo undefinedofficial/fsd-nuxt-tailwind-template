@@ -1,0 +1,4 @@
+<template>
+  Passport
+  <NuxtPage />
+</template>

@@ -1,0 +1,22 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+
+    "baseUrl": ".",
+    "paths": {
+      "app": ["src/01-app"],
+      "processes/*": ["src/02-processes/*"],
+      "pages/*": ["src/03-pages/*"],
+      "widgets/*": ["src/04-widgets/*"],
+      "features/*": ["src/05-features/*"],
+      "entities/*": ["src/06-entities/*"],
+      "shared": ["src/07-shared"],
+      "shared/*": ["src/07-shared/*"],
+      "assets/*": ["src/07-shared/assets/*"],
+      "@/*": ["src/*"]
+    }
+  }
+}
